@@ -1,0 +1,13 @@
+{
+  "extends": ["react-app", "plugin:prettier/recommended"],
+  "env": {
+    "es6": true
+  },
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "warn",
+    "jsx-a11y/alt-text": "off",
+    "react/jsx-no-target-blank": "off",
+    "import/no-anonymous-default-export": "off"
+  }
+}

@@ -1,0 +1,33 @@
+@import 'styles/component';
+@import 'styles/mui';
+
+body {
+  font-size: 1rem;
+  font-family: 'Montserrat' !important;
+}
+
+main {
+  min-height: 100vh;
+}
+
+* {
+  outline: none !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+body > iframe {
+  display: none;
+}
+
+:root {
+  --color-primary-light: #482880;
+  --color-primary-main: #673ab7;
+  --color-primary-dark: #8561c5;
+
+  --color-secondary-light: #2a3eb1;
+  --color-secondary-main: #3d5afe;
+  --color-secondary-dark: #637bfe;
+}
